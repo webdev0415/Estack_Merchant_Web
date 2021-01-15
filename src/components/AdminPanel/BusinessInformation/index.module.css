@@ -1,0 +1,112 @@
+.form {
+    width: 350px;
+    max-width: 350px;
+    flex: 1;
+}
+
+.priceWrapper {
+    height: 7.3rem;
+}
+
+.priceWrapperLabel {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.priceWrapperPrice {
+    margin: 3px 0;
+}
+
+.uploadWrapper {
+    display: block;
+    margin: 0 100px;
+}
+
+.imageWrapper {
+    position: relative;
+}
+
+.image {
+    min-width: 150px;
+    width: 150px;
+    min-height: 150px;
+    height: 150px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    border-radius: 0 0 4px 4px;
+}
+
+.imageButton {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.719679);
+    border-radius: 0 0 4px 4px;
+}
+
+.icon {
+    width: 50px;
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageButtonText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 2rem 3rem;
+}
+
+.header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 3rem;
+}
+
+.align_div {
+    width: 100%;
+    display: flex;
+}
+
+@media screen and (max-width: 1300px) {
+    .align_div {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+        max-width: unset;
+    }
+
+    .uploadWrapper {
+        order: -1;
+        margin: 24px 0;
+    }
+
+    .image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .imageButtonText {
+        text-align: center;
+        width: 100%;
+        margin-right: 50px;
+    }
+}

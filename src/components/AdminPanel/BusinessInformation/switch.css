@@ -1,0 +1,11 @@
+/*.customSwitch .ant-switch {
+    background-color: #52C41A !important;
+}
+
+.customSwitch .ant-switch-checked {
+    background-color: #4076d9 !important;
+}*/
+
+.ant-row.ant-legacy-form-item {
+    width: 100px;
+}

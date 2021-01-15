@@ -1,0 +1,36 @@
+.background_div {
+  margin: 24px;
+}
+.tab_bg {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1050px) {
+  .tabpane_div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+.graph_div1 {
+  width: 70%;
+}
+
+/* @media screen and (max-width: 1200px) {
+  .graph_div {
+    width: 100%;
+  }
+
+  .graph_div1 {
+    width: 100%;
+  }
+} */

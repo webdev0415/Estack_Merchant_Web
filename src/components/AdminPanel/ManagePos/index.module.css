@@ -1,0 +1,31 @@
+.bg_div{
+    margin: 24px
+}
+.tab_bg{
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.background_div{
+    background: white;
+    padding: 30px;
+    /* margin: 24px; */
+    border-radius: 6px  ;
+    -webkit-border-radius: 6px  ;
+    -moz-border-radius: 6px  ;
+    -ms-border-radius: 6px  ;
+    -o-border-radius: 6px  ;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.buttonsWrapper {
+    min-width: 250px;
+    align-items: center;
+    float: right;
+    display: flex;
+}

@@ -1,0 +1,17 @@
+.auth_page{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #d9f6ff;
+    background-image: url('../../../img/group-8.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center
+}
+
+.logo_margin{
+    margin-bottom: 3rem
+}

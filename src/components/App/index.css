@@ -1,0 +1,124 @@
+/* @import '~antd/dist/antd.css'; */
+
+html {
+  font-size: 62.5%;
+}
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.ant-input {
+  /* height: 40px !important; */
+}
+
+.ant-form {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/* order is very important */
+
+.ant-row {
+  margin-bottom: 20px !important;
+}
+.ant-form-item-with-help {
+  margin-bottom: 11px !important;
+}
+
+.ant-popover-inner-content {
+  padding: 0 !important;
+}
+
+.ant-select-selection__rendered {
+  /* line-height: 40px !important; */
+}
+
+.ant-select-selection--single {
+  /* height: 32px !important; */
+}
+
+/* sider increase length */
+
+.ant-layout-sider-dark {
+  flex: 0 0 250px !important;
+  max-width: 250px !important;
+  min-width: 250px !important;
+  width: 250px !important;
+  z-index: 100;
+}
+
+.ant-layout-sider-collapsed {
+  flex: 0 0 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+  width: 80px !important;
+  z-index: 100;
+}
+
+/* step global css */
+.ant-steps-vertical .ant-steps-item-icon {
+  margin-right: 0 !important
+}
+
+
+/* pagination active background color */
+.ant-pagination-item-active{
+  background: #4076d9 !important;
+}
+
+.ant-pagination-item-active a{
+  color: white !important;
+}
+
+/* switch btn design height */
+
+.ant-switch::after{
+  top: 2.25px !important
+}
+
+.ant-switch{
+  height: 25px !important
+}
+
+
+/* radion button padding  */
+
+.ant-radio-button-wrapper{
+  padding: 0 5px
+}
+
+
+.ant-calendar-range-picker-separator{
+  vertical-align: none !important
+}
+
+
+/* .ant-input-number-lg input{
+  height: 32px !important;
+} */
+
+
+
+/* table header column padding */
+.ant-table-thead > tr > th{
+  padding: 16px 8px !important;
+}
+
+
+.ant-modal-footer{
+  border: none !important;
+}

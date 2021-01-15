@@ -1,0 +1,8 @@
+.ant-form-item-has-error .ant-form-item-explain {
+    position: absolute;
+    bottom: -25px;
+}
+
+.ant-form-item-with-help {
+    margin-bottom: 20px !important;
+}

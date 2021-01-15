@@ -1,0 +1,12 @@
+.customSwitch .signup_switch_btn__3e5ob {
+    background-color: #4076d9 !important;
+    height: 26px !important;
+    width: 74px !important;
+}
+
+.customSwitch .ant-switch-checked {
+    background-color: #52C41A !important;
+}
+.customSwitch .ant-switch-handle {
+	margin: 2px 0;
+}

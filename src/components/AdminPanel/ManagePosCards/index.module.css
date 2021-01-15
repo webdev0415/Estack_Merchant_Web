@@ -1,0 +1,32 @@
+.card_row {
+
+}
+
+.col_div {
+  max-height: 130px;
+  min-width: 300px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .col_div {
+    width: 50%;
+  }
+}
+
+.card_style{
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.amount {
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.header {
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}

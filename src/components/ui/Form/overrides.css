@@ -1,0 +1,43 @@
+.ant-legacy-form-item-control-wrapper {
+    width: 100%;
+}
+.has-error {
+    color: #ff4d4f;
+}
+
+.has-error .ant-input {
+    border: 1px solid #ff4d4f !important;
+}
+
+.has-error .ant-select {
+    border: 1px solid #ff4d4f !important;
+}
+
+.has-error .ant-input-number-input {
+    border: 1px solid #ff4d4f !important;
+}
+
+
+.inputStyle {
+  width: 40px !important;
+  height: 40px !important;
+  margin: 0 1rem;
+  font-size: 2rem;
+  border-radius: 4px;
+  border: 1px solid #D9D9D9;
+}
+.containerStyle {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.login_btn {
+  margin: 0;
+  margin-bottom: 0 !important;
+}
+.login_otp {
+  margin-bottom: 0 !important
+}
+.otp_txt {
+  margin-top: 68px !important;
+}

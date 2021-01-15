@@ -1,0 +1,21 @@
+.siderwidth {
+  width: 256px !important;
+  max-width: 256px !important;
+  /* flex: 0 0 256px !important; */
+}
+
+.menu_item {
+  height: 56px !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.list_item {
+  color: white;
+}
+
+.icon_color {
+  color: white;
+}

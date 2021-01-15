@@ -1,0 +1,83 @@
+.card_main_div {
+  margin: 5px 24px 25px 24px ;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+
+.cardHider {
+  border-radius: 2%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(177, 185, 193, 0.8);
+  width: 100.5%;
+  height: 100.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 27px;
+  font-weight: bold;
+  color: #e0e0e0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card_row_main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex: 1;
+  margin: 0 -5px;
+}
+
+
+.card_row {
+  color: rgba(0, 0, 0, 0.65) !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex: 1;
+  /*margin: 0 -5px;*/
+}
+
+.col_div {
+  height: 220px;
+  min-width: 26rem;
+  width: 45%;
+  /*max-width: 38rem;*/
+  margin: 0 5px 20px 5px;
+}
+
+.card_style{
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+
+.amount {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 10px;
+}
+.today {
+  border-top: 1px solid #e8e8e8;
+  padding-top: 10px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+}
+
+.change_dod_wow {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.height_maintain {
+  height: 100px;
+}

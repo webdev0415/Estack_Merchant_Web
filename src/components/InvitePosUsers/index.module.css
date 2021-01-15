@@ -1,0 +1,24 @@
+.form {
+    width: 450px;
+    box-shadow: 2px 2px 4px rgba(0, 21, 41, 0.12);
+    padding: 1rem 3.5rem;
+    border: solid 1px #d9d9d9;
+    border-radius: 6px;
+    background-color: white
+  }
+
+  .header{
+    text-align: center;
+    margin: 3rem auto;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.85);
+
+  }
+
+  .subHeader{
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 16px;
+      text-align: center;
+      margin: 2rem auto 3rem
+  }

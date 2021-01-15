@@ -1,0 +1,46 @@
+.logoHeader {
+    padding: 0;
+    background-color: #002140;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    flex: 2;
+}
+
+.sider {
+    position: fixed;
+    min-height: 100vh;
+}
+
+.siderWidth {
+    min-width: 250px;
+    width: 250px;
+    overflow-y: auto;
+    transition: all 0.2s;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.siderWidthCollapsed {
+    width: 80px;
+    min-width: 80px;
+    overflow-y: auto;
+    transition: all 0.2s;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.image {
+    height: 20px;
+}
